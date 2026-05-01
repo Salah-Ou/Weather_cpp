@@ -49,7 +49,7 @@ Drives the simulation loop. `Simulation(iterations, seconds)` generates random r
 ### `DisplayConditions` — Current Conditions
 Prints live temperature, humidity, and pressure. Temperature is **color-coded** in the terminal:
 | Range | Color |
-|---|---|
+|:---:|:---:|
 | < 25 °C | 🔵 Blue (cool) |
 | 25–35 °C | 🟡 Orange (warm) |
 | > 35 °C | 🔴 Red (hot) |
@@ -60,7 +60,7 @@ Accumulates all temperature readings across the session and displays running **a
 ### `DisplayPrevisions` — Simple Forecast
 Produces a plain-language forecast based on the current temperature:
 | Temperature | Forecast |
-|---|---|
+|:---:|:---:|
 | < 17 °C | Rain possible |
 | 17–30 °C | Beautiful weather |
 | ≥ 30 °C | Heat wave |
