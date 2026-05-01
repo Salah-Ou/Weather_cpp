@@ -16,7 +16,7 @@ The project is a textbook implementation of the **Observer (Publish/Subscribe)**
 WeatherStation
      │
      ▼
-WeatherData  ────notifyObservers()────►  DisplayConditions
+WeatherData ──── notifyObservers() ────► DisplayConditions
   (Subject)                          ►  DisplayStatistiques
                                      ►  DisplayPrevisions
 ```
