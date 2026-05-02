@@ -124,3 +124,5 @@ Adding a new display is straightforward thanks to the Observer pattern — no ex
 - `temerature` in `WeatherData.h/cpp` is a known typo (missing an `p`) — safe to rename to `temperature` across both files.
 - The forecast in `DisplayPrevisions` currently ignores humidity and pressure; these could be incorporated for a more accurate prediction model.
 - `using namespace std;` is used in header files — considered bad practice in larger projects; moving it to `.cpp` files only would be a clean improvement.
+
+[![Video thumbnail text](https://imgur.com/thumbnail-image.jpg)](https://your-video-link.com)
